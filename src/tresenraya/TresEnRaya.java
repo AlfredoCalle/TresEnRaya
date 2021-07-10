@@ -30,7 +30,7 @@ public class TresEnRaya extends javax.swing.JFrame {
     public TresEnRaya() {
         initComponents();
         setLocationRelativeTo(null);
-        setIconImage(new ImageIcon(getClass().getResource("/images/logo.png")).getImage());
+        setIconImage(new ImageIcon(getClass().getResource("/images/logo.png")).getImage()); // Cambia el icono de la ventana
 
         tablero[0] = btn_0;
         tablero[1] = btn_1;
